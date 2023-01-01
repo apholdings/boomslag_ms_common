@@ -9,7 +9,7 @@
   "license": "ISC",
   "scripts": {
     "build": "tsc",
-    "pub": "npm version patch && npm run build && npm publish"
+    "pub": "npm run build && npm publish"
   },
   "dependencies": {
     "@types/cookie-session": "^2.0.44",
